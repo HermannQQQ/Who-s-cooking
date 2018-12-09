@@ -9,7 +9,7 @@ Make sure you have installed:
 setup
 -----
 * In a dir of your choice: 
-git clone
+git clone https://github.com/manishpandit/chef.git
 * cd to chef
 cd chef
 * sync pipenv: this will install required packages.
