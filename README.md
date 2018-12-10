@@ -9,29 +9,18 @@ In this project we aim to predict the category of a dish's cuisine given a list 
 pre-requisites: 
 ---------------
 
-Make sure you have installed: 
-1. python 3.6.x
-2. pipenv (if not installed, run `pip install pipenv`).
+Make sure you have installed: python 3.6.x
 
 clone:
 -----
 run `git clone https://github.com/manishpandit/chef.git` in a dir of your choice. 
 
-* cd to chef
-cd chef
-* sync pipenv: this will install required packages.
-pipenv sync
-
-pipenv:
-------
+virtual env:
+-----------
 
 * run `cd chef`
-* run `pipenv --python 3.6` to create a virtual env.
-* run `pipenv shell` to start shell.
-* run `pipenv sync` to install required packages.
+* run `virtualenv --python=/usr/bin/python3 . ` (make sure path points to version 3.6.x)
+* run `source bin/activate`
+* run `pip install -r requirements.txt`
 * run `jupyter notebook`
 * In the browser, open the chef notebook and run.
-
-Note:
-----
-* If you run into to SSL cert error during importing the json file. Open finder--applications--python3.6 and run install cert and retry.
